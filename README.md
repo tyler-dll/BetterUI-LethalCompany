@@ -1,6 +1,5 @@
 > [!CAUTION]
-> ### ⚠️ **OUTDATED AND NO LONGER BEING MAINTAINED** ⚠️
-> > You may contact me if you would like to take over this project
+> ### **OUTDATED AND NO LONGER BEING MAINTAINED**
 
 # BetterUI v1.1.0 - [LessonLethal](https://linktr.ee/lessonlethal)
 
@@ -13,81 +12,77 @@
 
 ### Custom Settings & Hotkeys for the HUD, FPS, Clock, and Chat
 
-> *Want to ask questions, provide feedback, or contribute? Contact me [Github](https://github.com/LessonLethal/BetterUI/issues).*
-
 ___
 
-# FEATURES 💡
+# FEATURES
 
 **COMPATIBILITY:** To deal with mod conflict, every feature in this mod can be individually enabled or disabled.
 
-## 👉 HUD TOGGLE
+## HUD TOGGLE
 >  Use this to disable your HUD when you want to take screenshots, video, etc.
 - Toggle your HUD ON and OFF with a hotkey.
 - Hides the entire HUD, except the visor. Does NOT hide menus.
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
+> **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ```Default Hotkey: Keypad7```
 
-## 👉 FPS COUNTER
+## FPS COUNTER
 > View your FPS in a simple and non-intrusive format. 
 - Toggle the FPS counter ON and OFF with a hotkey. OFF by default.
 - Located at the top right corner of the screen. *Small and white...*
 - You can change both the font size and color of the counter.
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
+> **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ``` Default Hotkey: Keypad8 ```
 
-## 👉 VIEW CLOCK INSIDE
+## VIEW CLOCK INSIDE
 > A convenient way to view the clock while you're inside a building or ship.
 - Toggle the inside clock ON and OFF with a hotkey. OFF by default.
 - Affects only the visibility of clock inside the ship or a building.
 - Until you use the hotkey, the clock when inside will stay at the vanilla 0% visibility.
 - You can change the visibility of the (toggled ON) inside clock. By default it's set to 30% (0.3) visibility.
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
+> **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ``` Default Hotkey: Keypad9```
 
-## 👉 REAL TIME CLOCK
+## REAL TIME CLOCK
 > Feature for those who want a smooth clock.
 - Change the clock to update in real time, affects appearance only.
 - The time shown on the clock will appear to flow smoother because it is being updated much faster.
 
-> ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
+> **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
-## 👉 CHAT AUTO FADE
+## CHAT AUTO FADE
 > Feature for those who don't want to see the chat box when not using it.
 - Changes the chat area to fade out when not being used. 
 - It will appear again if you receive or want to send a message.
 - The chat area is affected when you toggle the hotkey for UI/HUD visibility.
 
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
+> **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
-## 👉 INCREASE TARGET FRAME RATE 
+## INCREASE TARGET FRAME RATE 
 > **Experimental:** Use to increase maximum FPS possible. Not recommended for slower computers. 
 - Set Target Frame Rate to 500.
 - Set vSync to OFF.
 - Shows a wider range with the FPS counter enabled.
 - Can affect performance, but not made for that.
 
-> ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
-___
-> *Having issues with this mod? Contact me on [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
-___
+> **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
+
 ___
 
-# CONFIGURATION ⚙
+# CONFIGURATION
 
 > Having issues with the config file? Try deleting the config file, and then run the game again to create a new config file. 
 
-## ⏭ HUD SETTINGS
+## HUD SETTINGS
 - `Enable_HUD` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `HUD_Hotkey`
   - `false` -> Disables `HUD_Hotkey`
 - `HUD_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad7`
   - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values-) at bottom of page
 
-## ⏭ FPS SETTINGS
+## FPS SETTINGS
 - `Enable_FPS` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `FPS_Hotkey`
   - `false` -> Disables `FPS_Hotkey`
@@ -99,7 +94,7 @@ ___
 - `FPS_Font_Color` -> Type: String -> Default: `#FFFFFF`
   - Visit the [**Google HEX Color Picker**](https://g.co/kgs/Z3zb5f3) for help with color
   
-## ⏭ CLOCK SETTINGS
+## CLOCK SETTINGS
 - `Enable_Clock` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `Clock_Hotkey`
   - `false` -> Disables `Clock_Hotkey`
@@ -116,12 +111,12 @@ ___
   - `true` -> Changes the clock to update faster
   - `false` -> Doesn't affect the clock
   
-## ⏭ CHAT SETTINGS
+## CHAT SETTINGS
 - `Auto_Fade_Chat` -> Type: Boolean -> Default: `true`
   - `true` -> Enables the auto fading chat box
   - `false` -> Doesn't affect the chat box
   
-## ⏭ EXPERIMENTAL SETTINGS
+## EXPERIMENTAL SETTINGS
 - `Frame_Rate_Override` -> Type: Boolean -> Default: `false`
   - `true` -> Sets target frame rate to 500 and turns off vSync
   - `false` -> Doesn't affect any display settings
@@ -143,11 +138,8 @@ ___
 **Important Note:** Sometimes after a large update the config file may no longer work correctly and needs to be deleted, and the guide I listed above is an easy way to that. *This is not necessary after every update.*
 
 ___
-> *Want to ask questions, provide feedback, or contribute? Contact me  [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
-___
-___
 
-# Credits 👑
+# Credits
 Thank you to those who have helped, tested, and/or contributed to this mod:
 - @paradox75831004 - For testing and providing suggestions to make this mod better
 
@@ -157,59 +149,44 @@ Thank you to the developers who made the mods that inspired this mod:
 - [Monkeytype](https://thunderstore.io/c/lethal-company/p/Monkeytype/) - HideChat
 - [Solar32](https://thunderstore.io/c/lethal-company/p/Solar32/) - PerformanceEnhancer
 
-> Please [contact me](https://github.com/LessonLethal) if you would like to update or remove your credit
-
-___
-
-# Contact 📞
-
-**Discord:** [@tyleroutcast](https://discord.com/users/235518194612305920)
-
-**Github:** [@LessonLethal](https://github.com/LessonLethal)
-
-**[My Linktree](https://linktr.ee/lessonlethal)**
-
-___
 If you enjoy my mod and want to support future development, [buy me a coffee here.](https://linktr.ee/lessonlethal)
 ___
 ___
 
-# TO DO LIST 📝
+# TO DO LIST
 
-- ⌨ `Integrate InputUtils`: Add support for the popular mod [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
+- `Integrate InputUtils`: Add support for the popular mod [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
   - The mod adds an interface in the settings menu to change the hotkeys that mods like this create, which normally you can only change in the config.
 
-- ⚡ `Conductivity Indication`: Add two separate ways that you can change the UI to indicate that you're conductive.
+- `Conductivity Indication`: Add two separate ways that you can change the UI to indicate that you're conductive.
   - **HUD Conductivity**: A single indicator to the HUD that will only appear when you are holding a conductive item.
   - **Inventory Conductivity**: A indicator to the icon of any conductive items that are in your inventory.
   - The indicator used should likely be a lightning bolt. For icons the indicator will appear in a corner.
   - This feature would only run when on a moon that has lightning occurring. This would help performance.
 
-- 💰 `Inventory Item Value`: Add the quota value to the items icons in your inventory. *(suggested by @paradox75831004)*
+- `Inventory Item Value`: Add the quota value to the items icons in your inventory. *(suggested by @paradox75831004)*
   - The quota value should likely be displayed near the top or the bottom of the icon.
 
-- 🔧 `Custom Positioning`: Add the option to change the position of the HUD elements, in the config. *(suggested by @slashsgt)*
+- `Custom Positioning`: Add the option to change the position of the HUD elements, in the config. *(suggested by @slashsgt)*
   - Changing a position could be changing the X and Y screen values and/or selecting from a list of predefined areas.
 
-- 🎭 `HUD Styling`: Add the option to change the style of different HUD elements, in the config. 
+- `HUD Styling`: Add the option to change the style of different HUD elements, in the config. 
   - Changing a style would be selecting from a list of predefined styles for each element.
 
-- ❤ `Health Meter`: Add a health meter to the HUD, with custom positioning and alternative styles.
+- `Health Meter`: Add a health meter to the HUD, with custom positioning and alternative styles.
   - This could either be a bar meter or just a number value.
 
-- 🧭 `Compass`: Add a compass, with custom positioning and alternative styles.
+- `Compass`: Add a compass, with custom positioning and alternative styles.
   - Fallout style compass. *(suggested by @slashsgt)*
 
-- 😨 `Sanity Meter`: Add a sanity meter to the HUD, with custom positioning and alternative styles.
+- `Sanity Meter`: Add a sanity meter to the HUD, with custom positioning and alternative styles.
   - Knowing sanity is useful because a lower sanity you have, the more likely a girl or bracken will target you, and more.
   
 ***Note:** All features added will be Disabled by default.*
-___
-> *Want to ask questions, provide feedback, or contribute? Contact me  [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
-___
+
 ___
 
-# Installation ⛓️
+# Installation
 
 > ***Important:** Run the game once after installing this mod for it to create the config file*
 
@@ -227,13 +204,11 @@ ___
 2. Click `Install with Mod Manager`
 3. If there is a pop up asking you to *confirm opening a link with r2modman*, click the confirm button
     - In different browsers this pop up will look and be different including the buttons, so instruction may vary
-    - If there is no pop up then your browser is preventing it, disable pop up blocker just for the Thunderstore website.
-___
-> *Having issues with this mod? Contact me on [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
+    - If there is no pop up then your browser is preventing it, disable pop up blocker just for the Thunderstore website
 ___
 ___
 
-# List of KeyboardShortcut Values ⌨
+# List of KeyboardShortcut Values
 
 > [Referenced From This Documentation Page by Unity](https://docs.unity3d.com/ScriptReference/KeyCode.html)
 
